@@ -1,0 +1,63 @@
+/* Container for the entire form section */
+.container {
+    max-width: 400px; /* Maximum width for the form */
+    margin: 50px auto; /* Center the container vertically and horizontally */
+    padding: 30px; /* Padding inside the container */
+    background-color: #f8f8f8; /* Light grey background */
+    border-radius: 10px; /* Smooth, rounded corners */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    display: flex; /* Flexbox for alignment */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Align children in the center horizontally */
+}
+
+/* Styling for the form header */
+header {
+    font-size: 26px; /* Header font size */
+    text-align: center; /* Center the header */
+    margin-bottom: 25px; /* Space below the header */
+    color: #333; /* Darker text for better readability */
+    font-weight: bold; /* Emphasize the header */
+}
+
+/* Style for input fields */
+.field.input {
+    width: 100%; /* Full width for input fields */
+    margin-bottom: 20px; /* Space between input fields */
+}
+
+/* Label styles */
+.field.input label {
+    display: block; /* Place label above input */
+    margin-bottom: 6px; /* Space below the label */
+    font-size: 14px; /* Font size for labels */
+    color: #444; /* Medium grey for labels */
+}
+
+/* Input field styles */
+.field.input input {
+    width: 100%; /* Full width of the container */
+    padding: 10px; /* Padding inside input fields */
+    border: 1px solid #ccc; /* Soft border for input fields */
+    border-radius: 5px; /* Rounded corners */
+    font-size: 16px; /* Font size for input text */
+    background-color: #fff; /* White background for input fields */
+}
+
+/* Submit button styling */
+.field .btn {
+    width: 100%; /* Full width button */
+    padding: 10px 0; /* Vertical padding */
+    background-color: #4CAF50; /* Green background for button */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Smooth rounded corners */
+    font-size: 16px; /* Button text size */
+    text-align: center; /* Center the text */
+}
+
+/* Message styling */
+
+
+/* General styling for the page (if needed) */
+
